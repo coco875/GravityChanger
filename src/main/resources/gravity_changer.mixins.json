@@ -51,7 +51,8 @@
     "WitchEntityMixin",
     "WitherEntityMixin",
     "WolfBegGoalMixin",
-    "fall_distance.ServerPlayerEntityMixin_FallDistance"
+    "fall_distance.ServerPlayerEntityMixin_FallDistance",
+    "forge.ForgeHooksMixin"
   ],
   "client": [
     "client.BiomeEffectSoundPlayerMixin",
@@ -65,7 +66,8 @@
     "client.InGameOverlayRendererMixin",
     "client.ItemPickupParticleMixin",
     "client.OtherClientPlayerEntityMixin",
-    "client.PlayerEntityRendererMixin"
+    "client.PlayerEntityRendererMixin",
+    "client.ScreenEffectRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
